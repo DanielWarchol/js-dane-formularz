@@ -11,8 +11,12 @@ let pPhone = document.getElementById('phone');
 
 
 btnDisplayData.addEventListener('click', function(){
+  let inputName = document.getElementById('form-name').value;
+  let inputSurname = document.getElementById('form-surname').value;
+  let inputPhone = document.getElementById('form-phone').value;
   
-    pName.innerText = "Daniel";
-    pSurname.innerText = "Warchoł";
-    pPhone.innerText = '123 456 789';
+   pName.innerText = inputName;
+   pSurname.innerText = inputSurname;
+   pPhone.innerText = inputPhone;
+   
 });
