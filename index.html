@@ -8,16 +8,17 @@
     <title></title>
 </head>
 <body>
+<form action="">
     Imię<br>
-    <input type="text"><br>
+    <input type="text" id="form-name" ><br>
     Nazwisko<br>
-    <input type="text"><br>
+    <input type="text" id="form-surname"><br>
     Numer telefonu<br>
-    <input type="text"><br><br>
-
-<button>Wyświetl dane</button>
+    <input type="text" id="phone"><br><br>
+</form>
+<button onclick ="click()" id="button">Wyświetl dane</button>
     <div id="container">
-        <p>Dane:</p>
+        <p id="dane">Dane:</p>
         <p id="name"></p>
         <p id="surname"></p>
         <p id="phone"></p>
