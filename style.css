@@ -1,4 +1,16 @@
+body{
+    background-color: slategrey
+}
+form{
+    background: black;
+    width: 200px;
+    color: white;
+}
+p{
+    color: white;
+}
 button{
     background-color: black;
     color: white;
 }
+
