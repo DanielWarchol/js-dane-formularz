@@ -1,13 +1,18 @@
-let button = document.getElementById('button');
-let dane = document.getElementById('dane');
-let name = document.getElementById('name').value;
-let surname = document.getElementById('surname').value;
-let phone = document.getElementById('phone').value;
-let container = document.getElementById('container');
+let btnDisplayData = document.getElementById('display-data');
 
-button.addEventListener (function(){
+let inputName = document.getElementById('form-name');
+let inputSurname = document.getElementById('form-surname');
+let inputPhone = document.getElementById('form-phone');
 
- 
+let pName = document.getElementById('name');
+let pSurname = document.getElementById('surname');
+let pPhone = document.getElementById('phone');
+
+
+
+btnDisplayData.addEventListener('click', function(){
   
-});  
-   
+    pName.innerText = "Daniel";
+    pSurname.innerText = "Warchoł";
+    pPhone.innerText = '123 456 789';
+});
